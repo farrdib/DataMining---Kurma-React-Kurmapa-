@@ -1,0 +1,149 @@
+/* Set global font to Candara */
+body, html {
+  font-family: 'Candara', sans-serif;
+}
+
+/* Section styling */
+#about {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #333;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  width: 100px;
+  height: 4px;
+  background-color: #A67B5B;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.profilekami {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+.profiledisya, .profilefharra {
+  flex: 1;
+  max-width: 300px;
+  margin: 0 20px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profiledisya:hover, .profilefharra:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.profile-kami-image, .profile-type-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.profiledisya:hover .profile-kami-image, .profilefharra:hover .profile-type-image {
+  transform: scale(1.1);
+}
+
+.profiledisya h3, .profilefharra h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.profile-description {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Footer styling */
+.about-footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo-section {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+.footer-info-section, .footer-links-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-info-section h4, .footer-links-section h4 {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.footer-info-section p, .footer-links-section a {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #bbb;
+}
+
+.footer-links-section a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links-section a:hover {
+  color: #A67B5B;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #ad9e9e;
+}

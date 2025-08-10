@@ -1,0 +1,58 @@
+/* Types.css */
+#types {
+  padding: 2rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #e29964; /* New color */
+  margin-bottom: 2rem;
+}
+
+.kurma-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.kurma-type {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  max-width: 320px;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.kurma-type:hover {
+  transform: scale(1.05);
+}
+
+.kurma-type-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.kurma-type:hover .kurma-type-image {
+  transform: scale(1.2);
+}
+
+.kurma-type h3 {
+  font-size: 1.5rem;
+  color: #32649a;
+  margin-bottom: 0.5rem;
+}
+
+.kurma-description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}

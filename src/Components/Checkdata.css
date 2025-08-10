@@ -1,0 +1,176 @@
+#checkdata {
+  padding: 2rem;
+  background-image: linear-gradient(to top, #f8f8f8, #fffbf9); /* Gradient background */
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1000px; /* Memperlebar kotak */
+  scroll-margin-top: 100px; /* Adjust this value to control scroll offset */
+}
+
+/* Judul utama */
+#checkdata h2 {
+  color: #6F4E37;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+#checkdata h3 {
+  color: #A67B5B;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+/* Tombol */
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#checkdata button {
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #007bff; /* Button background color */
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#checkdata button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Kontainer informasi */
+.info-container {
+  margin-top: 2rem;
+  padding: 2rem;
+  border: 1px solid #6F4E37;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.info-container h2 {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+  text-align: center; /* Center align the secondary title */
+}
+
+.info-container p {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.info-container ul {
+  list-style: none; /* Menghilangkan bullet points */
+  padding: 0; /* Menghilangkan padding default */
+  margin-left: 0; /* Menghilangkan margin default */
+  align-items: center;
+  color: #333;
+}
+
+.info-container li {
+  margin-bottom: 0.5rem;
+}
+
+.info-container strong {
+  font-weight: bold;
+}
+
+/* Kontainer tambahan untuk tampilan lebih menarik */
+#checkdata .extra-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.extra-info .info-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  flex: 1 1 48%; /* Memperlebar info-box */
+  max-width: 48%;
+  text-align: center;
+}
+
+.extra-info .info-box h3 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.extra-info .info-box p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.extra-info .info-box ul {
+  list-style: none; /* Menghilangkan bullet points */
+  padding: 0; /* Menghilangkan padding default */
+  margin-left: 0; /* Menghilangkan margin default */
+}
+
+.extra-info .info-box li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Gaya tambahan untuk gambar dan deskripsi */
+.result-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+.image-container {
+  flex: 1;
+  padding: 1rem;
+}
+
+.description-container {
+  flex: 1;
+  padding: 1rem;
+  text-align: left;
+}
+
+.selected-image {
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-description {
+  color: #333;
+  margin-top: 10px;
+  text-align:center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

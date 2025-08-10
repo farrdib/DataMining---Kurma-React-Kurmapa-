@@ -1,0 +1,100 @@
+.home {
+  font-family: 'Candara', sans-serif;
+  text-align: center;
+  color: #333;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.welcome-title {
+  font-size: 4em;
+  margin: 0;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center align vertically */
+  justify-content: center; /* Center align horizontally */
+}
+
+.welcome-title span {
+  font-size: 1.5em; /* Increase the font size of "HI" */
+  color: #b84b4b;
+  margin-right: 10px;
+}
+
+.welcome-title .welcome-gif {
+  max-height: 400px; /* Increase the height to fit with the larger text */
+}
+
+.title {
+  font-size: 2.5em; /* Adjust font size as needed */
+  margin-bottom: 20px;
+  color: #A67B5B;
+  text-align: left; /* Align text to the left */
+  padding-left: 100px; /* Adjust the padding value as needed */
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: #6F4E37;
+  text-align: left; /* Align text to the left */
+  padding-left: 100px; /* Adjust the padding value as needed */
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  animation: move 5s infinite alternate;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+}
+}
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+}
+
+.wave-top {
+  top: 0;
+  background: url('path-to-your-top-wave-image.svg') repeat-x;
+  transform: rotate(180deg);
+}
+
+.wave-bottom {
+  bottom: 0;
+  background: url('path-to-your-bottom-wave-image.svg') repeat-x;
+}

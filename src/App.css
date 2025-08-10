@@ -1,0 +1,106 @@
+/* app.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #FFB74D; /* Warna coklat kurma */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #D5DC9A; /* Warna hijau terang */
+  }
+  
+  nav {
+    background-color: #3E4E50; /* Warna coklat kurma gelap */
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+  
+  nav ul li {
+    font-size: 1.2rem;
+  }
+  
+  nav ul li a {
+    color: #fff; /* Warna teks putih */
+  }
+  
+  .home {
+    padding: 2rem;
+    background-color: #ffffff; /* Warna latar belakang */
+  }
+  
+  .home section {
+    margin-bottom: 4rem;
+  }
+  
+  .home h1, .home h2 {
+    color: #3E4E50; /* Warna coklat kurma */
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .home button {
+    background-color: #d5dc9a; /* Warna hijau terang */
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .home button:hover {
+    background-color: #FFB74D; /* Warna coklat kurma yang lebih terang */
+  }
+  
+  .kurma-types {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  
+  .kurma-types div {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
